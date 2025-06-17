@@ -4,6 +4,25 @@
     font-weight: normal;
 }
 
+.fira-mono-regular {
+    font-family: "Fira Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .fira-mono-medium {
+    font-family: "Fira Mono", monospace;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .fira-mono-bold {
+    font-family: "Fira Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
 body {
     /* background: #333; */
     background-image: url('/public/background.png');
@@ -25,6 +44,7 @@ body {
 .typewriter h1 {
 color: #000000;
 font-family: Typewriter;
+/* font-family: "Fira Mono", monospace; */
 border-right: 5px solid rgb(161, 0, 0); /* The typwriter cursor */
 white-space: nowrap; /* Keeps the content on a single line */
 margin: 0 auto; /* Gives that scrolling effect as the typing happens */
@@ -41,6 +61,7 @@ margin-top: 5vh;
 max-width: 80%;
 color: #000000;
 font-family: Typewriter;
+/* font-family: "Fira Mono", monospace; */
 letter-spacing: .15em;
 display: flex;
 flex-direction: column;
